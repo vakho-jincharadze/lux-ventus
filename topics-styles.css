@@ -33,6 +33,12 @@
   width: 204px;
   height: 291px;
   border-radius: 20px;
+  transition: 0.5s;
+}
+
+.topics-card:hover {
+  scale: 1.1;
+  box-shadow: 5px 5px 5px gray;
 }
 
 .topics-card h3 {
